@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDC</title>
+<style>
+  body{
+    margin: 0;
+  }
+header{
+    background-image: url('/IMAGES/SDCbackdrop.jpeg');
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+main{
+  background:black;
+}
+h2{
+  text-align: center;
+  font-family: cursive;
+  margin: 0 auto;
+ 
+}
+ul.flex-container{
+  position: sticky;
+  top: 0;
+  display: flex;
+  font-size: 20px;
+  padding-inline-start: 0;
+  flex-flow: row wrap;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border: 2px solid black;
+}
+.flex-item{
+  flex-grow: 1;
+}
+ul li{
+  margin: 0px;
+  list-style-type: none;
+  background: white;
+  text-align: center;
+  border-right: 0.5px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+ul li:hover{
+  color: orange;
+  background-color: black;
+}
+.footer{
+  margin: 0;
+  text-align: center;
+  background-color: orange;
+  font-size: 13px;
+}
+span{
+  font-size: 10px;
+}
+.column{
+  margin: 0 40px;
+  column-count: 3;
+  line-height: 30px;
+  text-indent: 30px;
+  
+}
+.column::first-letter{
+  font-size: 40px;
+  font-weight: bold;
+}
+h3{
+  padding-left: 40px;
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: orange;
+}
+figure{
+  margin-bottom: 0;
+}
+article{
+  color: white;
+}
+img.album{
+  border: 1px solid white;
+}
+h2 img.logo{
+  margin-top: 5px;
+}
+video{
+  height: 315px;
+  width: 520px;
+}
+figcaption{
+  color: orange;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+div.iframe{
+  text-align: center;
+}
+.Connect{
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+  margin: 0 auto;
+}
+iframe{
+  width: 500px;
+  height: 320px;
+}
+ul.dropdown {
+  display: none;
+  position: absolute;
+}
+li.item-2:hover .dropdown {
+  display: block;
+}
+</style>
+</head>
+
+<body> 
+    <header>
+     
+     <h2> <img src="/IMAGES/PngItem_4080055.png" alt="logo" height="30" width="30"> Audiomack <span>-leaders in Music</span></h2>
+        <ul class="flex-container">
+          <li class="flex-item item-1">Home</li>
+          <li class="flex-item item-2">Projects
+            <ul class="dropdown">
+              <li>Palmwine Music</li>
+              <li>Palmwine Express</li>
+              <li>Clone Wars</li>
+              <li>Mixtapes</li>
+            </ul>
+          </li>
+          <li class="flex-item item-3">Collaborations</li>
+          <li class="flex-item item-4">Visuals</li>
+          <li class="flex-item item-5">Contact</li>
+        </ul>
+      
+      
+    </header>
+    <main>
+        
+       <div class="articleContainer">
+            <article>
+            <h3> <u>An indepth look at the 'Clone Wars' project</u></h3>
+            <p class="column">Over four instalments of their series, Show Dem camp - made up of Ghost (Olumide Ayeni) 
+            and Tec (Wale Davies) - have cemented their unique sonic footprint as master blenders of high-life,
+             R&B, Afrobeats, pop and alte with Hip-Hop and lyrical concious story telling. <br><i>"The clone Wars 
+             series was born out of the fact that we felt everything was sounding the same," Tec tells Apple 
+             Music. When you look wider into Nigerian society,theres a lot of clones in general, whether 
+             we're following constructs created by Tribalism, Religion or Money. So Clone Wars for us as it 
+             developed, became less about the Music Industry being clones but observing all the clones 
+             and clone behaviour in our society".</i><br><br> Created against the backdrop of a 2020 spent
+            in lockdown, Clone Wars Vol.5 - The Algorhythm takes that story forward with an honest reflection
+             of how we consume a never-ending stream of similar content. <br> With a nod to their favourite 
+             albums of the 90's and early 2000's, Ghost and Tec punctuate with light-hearted skits that 
+             tend to shift the energy between the heavy themes they explore, from self discovery ('Align') 
+             and embracing independence ('Rise of the Underdogs')to speaking truth to power and understanding
+              the collective power of the people('Ghost Rant').</p></article>
+            </div>
+              
+              <figure>
+                <Figcaption>Albums</Figcaption>
+                <img class="album" src="/IMAGES/palmwine1.jpg" alt="albumart" width="192" height="192">
+                <img class="album" src="/IMAGES/pwinexress.jpeg" alt="albumart" width="192" height="192">
+                <img class="album" src="/IMAGES/palmwine 3.jpg" alt="albumart" width="192" height="192">
+                <img class="album" src="/IMAGES/clonewars3.png" alt="albumart" width="192" height="192">
+                <img class="album" src="/IMAGES/clonewars4.png" alt="albumart" width="192" height="192">
+                <img class="album" src="/IMAGES/palmwine2.png" alt="albumart" width="192" height="192">    
+              </figure>
+                  <br><br>
+                  <p class="Connect">Connect on Youtube</p>
+             <div class="iframe"> 
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/nnwXWfeye-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            </div>
+    </main>
+
+<footer>
+   <p class="footer">&reg; All Rights Reserved  Developed By SAGE Visuals &copy; 2023</p> 
+</footer>
+
+</body>
+</html>
